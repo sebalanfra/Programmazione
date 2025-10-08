@@ -1,5 +1,5 @@
 #include<stdio.h>
 int main(){
 
-    printf("Ciao benvenuto su Github");
+    printf("Ciao benvenuto su Github\n");
 }
