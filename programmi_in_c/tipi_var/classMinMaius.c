@@ -8,7 +8,7 @@ int main(){
     if(a>= 65 && a<= 90){
         printf("Maiuscola\n");
     }
-    else if(){
+    else if(a>=87 && a<=122){
         printf("Minuscola\n");
     }
     else if(){
