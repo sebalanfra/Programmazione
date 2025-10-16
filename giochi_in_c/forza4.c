@@ -9,7 +9,7 @@
 void checkWin(char matrice[N][M]){
 
     // VERTICALE
-
+        
     // ORRIZZONTALE
 
     //OBLIQUO 1 \*

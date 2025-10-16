@@ -16,5 +16,4 @@ int main(){
     
     else
         printf("Cosa hai scritto bro?\n");
-    
 }
