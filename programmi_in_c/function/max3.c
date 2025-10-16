@@ -9,10 +9,11 @@ int maxNum(int a, int b){
 }
 int max3(int a, int b, int c){
     
-    int m1 = maxNum(a,b);
-    int m2 = maxNum(m1,c);
-    return m2;
+    return maxNum(maxNum(a,b),c); 
  
+}
+int max4(int a,int b, int c, int d){
+    return maxNum(maxNum(maxNum(a,b),c), d);
 }
 int main(){
 
