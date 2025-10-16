@@ -29,6 +29,17 @@ int giorniMese(int m, int a){
     }
 
 }
+int valida(int g, int m, int a){
+
+    if(m < 1 || m > 12){
+        return 0;
+    }
+    if(g <1 || g > giorniMese(m,a)){
+        return 0;
+    }
+
+    return 1;
+}
 int main(){
 
     int g,m,a;
@@ -43,9 +54,13 @@ int main(){
     printf("Inserisci un anno :");
     scanf("%d", &a);
 
-    gm = giorniMese(m, a);
+    if(!valida(g,m,a)){
+        printf("Data nn valida");
+        return -1;
+    }
 
-      if (g == 31 && m == 12)
+
+    if (g == 31 && m == 12)
         printf("%d %d %d\n", 1, 1, a + 1);
     else if (g == gm)  // ultimo giorno del mese
         printf("%d %d %d\n", 1, m + 1, a);
