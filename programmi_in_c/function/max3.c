@@ -9,15 +9,9 @@ int maxNum(int a, int b){
 }
 int max3(int a, int b, int c){
     
-    if(maxNum(a,b) == maxNum(a,c)){
-        return a;
-    }
-    else if(maxNum(a,b) == maxNum(b,c)){
-        return b;
-    }
-    else{
-        return c;
-    }
+    int m1 = maxNum(a,b);
+    int m2 = maxNum(m1,c);
+    return m2;
  
 }
 int main(){
