@@ -5,7 +5,7 @@ int main(){
 
     do{
         printf("Inserisci un pin : \n");
-        scANF("%d", &pin);
+        scanf("%d", &pin);
     }while(pin!= 44122);
 
     printf("Accessp Consentito :)\n");
