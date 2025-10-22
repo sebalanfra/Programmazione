@@ -6,7 +6,7 @@ int main(){
     do{
         printf("*");
         cnt ++;
-    }while(cnt != 10);
+    }while(cnt != 67);
 
     printf("\n");
 }
