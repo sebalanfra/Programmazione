@@ -6,7 +6,11 @@ int main(){
     printf("Inserisci un numero : \n");
     scanf("%d", &n);
 
-    
+    while(n>0){
 
-    printf("Ecco il numero invertito : %d", n); 
+        printf("%d", n%10);
+        n = n/10;
+    }
+
+    printf("\n");
 }
