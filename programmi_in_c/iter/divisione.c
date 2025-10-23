@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 
-    int divid, divis, q;
+    int divid, divis, q = 0;
     int m;
 
     scanf("%d%d", &divid, &divis);
