@@ -6,7 +6,7 @@ int main(){
     printf("Inserisci un numero reale: \n");
     scanf("%f", &a);
 
-    float x = 1;
+    float x = 1.0;
 
     while(x*x!=a){
         x = (x+(a/x))/2;
