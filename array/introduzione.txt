@@ -1,0 +1,10 @@
+Introduzione di Array/Vettore:
+
+    1-Arraya ha la forma nome_variabile[dimensione_array]
+    2-Gli array li usiamo quando ci servono delle variabili di un unico tipo, 
+      e se vogliamo scrivere cose su piu celle di memoria unite.
+    
+Definizione di MACRO:
+
+    fondamentalmente è #define nome_dimensione valore_dimensione
+    
