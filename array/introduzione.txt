@@ -8,3 +8,7 @@ Definizione di MACRO:
 
     fondamentalmente è #define nome_dimensione valore_dimensione
     
+COSE SUL SECONDO PARZIALE
+
+    slide 408
+    tipo esericizio teorico che potremmo trovarci al secondo PARZIALE
