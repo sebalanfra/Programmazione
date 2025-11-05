@@ -2,16 +2,13 @@
 #define dim 5
 
 int main(){
-    int num[dim];
-    
-    for(int i = 0;i <dim ;i++){
-        scanf("%d", &num[i]);
+
+    float a[5] =  {1.2, 3.5, 5.6, 0.0,  6.7};
+
+    for(int i = 0;  i< 5; i++){
+        printf("%f\n", a[i]);
     }
 
-    for(int i = dim-1; i>=0;i--){
-        printf("%d", num[i]);
-    }
-
-    printf("\n");
     return 0;
+
 }
