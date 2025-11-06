@@ -9,9 +9,7 @@
    | |
    vuol dire che per ogni i%2 == 0 ci va '-' e per ogni j%2 == 0 ci va '|'
 */
-void crea(char matrice[N][N]){
-
-}
+void crea(char matrice[N][N]);
 void stampa(char matrice[N][N]) { 
 
     system("clear"); 
