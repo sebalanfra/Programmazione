@@ -11,6 +11,15 @@ int main(){
         p = p*a[i];
     }
 
-    printf("Il prodotto dei nueri inseriti prima è: %d\n", p);
+    for(int i = 0;i < dim; i++){
+        printf("%d", a[i]);
+        if(i < dim -1){
+            printf(" x ");
+        }
+    }
+
+    printf("= %d\n", p);
+
+    
     
 }
