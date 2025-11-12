@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void toUpperCase(char *s){
 
     // +- 32 per trasformare tra MAIUSCOLE e/0 minuscole 
@@ -16,4 +15,5 @@ int main(){
     scanf("%s", s);
     toUpperCase(s);
     printf("%s", s);
+
 }
