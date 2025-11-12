@@ -5,12 +5,12 @@ void cercaMax(int a[], int n){
     int max = 0;
 
     for(int i = 0;i< n;i++ ){
-        if(max <= a[i]){
+        if(max < a[i]){
             max = i;
         }
     }
 
-    printf("Il valore massimo e: %d che sta all' indice %d",a[max], max);
+    printf("Il valore massimo e: %d che sta all' indice %d\n",a[max], max);
 }
 void input_array(int n, int a[]){
 
