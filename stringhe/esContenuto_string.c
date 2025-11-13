@@ -5,16 +5,11 @@ int content(char *a, char *b){
     int i,j = 0;
 
     for(i = 0;b[i]!='\0'; i++){
-        for(j = 0;a[j]!='\0'; j++){
-            if(a[j] != b[i]){
-               break;
-            }   
-        }
-        if(a[j] != b[i]){
-            break;
-        }
-        else{
-            return 1;
+        if(b[i] == a[j]){
+            j++;
+            if(a[j] == '\0'){
+                return 1;
+            }
         }
     }
     return 0;
